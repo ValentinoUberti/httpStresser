@@ -7,5 +7,5 @@
 ### Istio
 #seq 1 1000 | xargs -n1 -P10 curl istio-ingressgateway-istio-system.apps.ocp.example.net/jvm
 #seq 1 1000 | xargs -n1 -P10 curl istio-ingressgateway-istio-system.apps.ocp.example.net/quarkus-jvm-istio
-#seq 1 1000 | xargs -n1 -P10 curl istio-ingressgateway-istio-system.apps.ocp.example.net//quarkus-native-istio
+#seq 1 1000 | xargs -n1 -P10 curl istio-ingressgateway-istio-system.apps.ocp.example.net/quarkus-native-istio
 
